@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+header ul li {
+    border-bottom: 1px solid transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    header ul li:hover {
+        border-color: #646cff;
+    }
+}
